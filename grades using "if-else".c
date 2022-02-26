@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
     int grade;
@@ -15,7 +16,7 @@ int main()
     {
         printf("Grade C");
     }
-    else if ((grade<=40) && (grade>=54))
+    else if ((grade>=40) && (grade<=54))
     {
         printf("Grade D");
     }
